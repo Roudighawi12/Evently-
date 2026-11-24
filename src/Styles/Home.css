@@ -1,0 +1,41 @@
+.hero {
+  background-color: #eef1f7;
+  padding: 80px 32px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin: 0 0 16px;
+  font-size: 44px;
+}
+
+.hero-content p {
+  margin: 0 0 24px;
+  font-size: 18px;
+  color: #4b5563;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 10px;
+  background: #f5b942;
+  color: #1f2a44;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.home-section {
+  padding: 48px 32px 16px;
+}
+
+.home-section h2 {
+  margin: 0 0 20px;
+  font-size: 26px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}

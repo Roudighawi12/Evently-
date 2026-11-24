@@ -1,0 +1,17 @@
+.footer {
+  background-color: #1f2a44;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer .socialMedia svg {
+  margin: 0 8px;
+  font-size: 24px;
+}
+
+.footer p {
+  margin: 10px 0 0;
+  font-size: 14px;
+}

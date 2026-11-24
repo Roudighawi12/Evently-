@@ -1,0 +1,36 @@
+.events-container {
+  padding: 40px 32px 48px;
+}
+
+.events-container h1 {
+  margin: 0 0 20px;
+  font-size: 34px;
+}
+
+.categoryFilter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.chip {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: 1px solid #1f2a44;
+  background: white;
+  color: #1f2a44;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.chip.active {
+  background: #1f2a44;
+  color: white;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}

@@ -1,0 +1,17 @@
+.statCard {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.statCard p {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.statCard h2 {
+  margin: 0;
+  font-size: 34px;
+}
